@@ -1,12 +1,42 @@
 * {
     outline: solid red 1px;
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
 }
-.header {
-    display:flex;
 
+.main-divs {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 265px;
 }
+
+
+.hero {
+    background-color: #1F2937;
+}
+
+.header {
+    height: 25px;
+    display:flex;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
+
+.logo-container {
+    display:flex;
+    align-items: center;
+}
+
 .nav-header-main-list {
     display: flex;
     list-style-type:none;
     margin-left:auto;
 }
+
+.random-info-list-items {
+    list-style-type: none;
+}
+
