@@ -1,0 +1,12 @@
+* {
+    outline: solid red 1px;
+}
+.header {
+    display:flex;
+
+}
+.nav-header-main-list {
+    display: flex;
+    list-style-type:none;
+    margin-left:auto;
+}
