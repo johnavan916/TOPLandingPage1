@@ -1,6 +1,6 @@
 * {
-    outline: solid red 1px;
     font-family: 'Roboto';
+    outline: solid red 1px;
     margin: 0;
     padding: 0;
 }
@@ -8,21 +8,38 @@
 .main-divs {
     margin-left: 0;
     margin-right: 0;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
     height: 265px;
 }
 
-
 .hero {
     background-color: #1F2937;
+    color:#F9FAF8;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 50px;
+    
+}
+
+.hero-tagline, .hero-image {
+    flex: 1;
+    max-width: 600px;
+    
+}
+
+.hero-tagline .h2{
+    font-weight: 900;
 }
 
 .header {
+    padding-top: 5px;
     height: 25px;
     display:flex;
     background-color: #1F2937;
     color:#F9FAF8;
+    align-items: center;
 }
 
 .logo-container {
