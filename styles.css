@@ -18,15 +18,13 @@
     color:#F9FAF8;
     align-items: center;
     justify-content: center;
-    display: flex;
-    gap: 50px;
-    
+    display: flex;    
 }
 
-.hero-tagline, .hero-image {
+.hero-tagline, .hero-image-container {
     flex: 1;
-    max-width: 600px;
-    
+    height: 200px;
+    align-items: center;
 }
 
 .hero-tagline .h2{
